@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <SplitPane dividerPositions="0.5" prefHeight="700.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox prefHeight="698.0" prefWidth="235.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane prefHeight="80.0" prefWidth="396.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="46.0" layoutY="8.0" prefHeight="70.0" prefWidth="200.0" text="StudentInformation">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <HBox layoutX="10.0" layoutY="10.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="name" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="90.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Father's Name" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="149.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="mother's Name" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="149.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Date of Birth" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="267.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="City" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="326.0" prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Registration number" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="536.0">
+               <children>
+                  <VBox layoutY="-2.0" prefHeight="698.0" prefWidth="396.0" spacing="10.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+                     <children>
+                        <AnchorPane prefHeight="80.0" prefWidth="396.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="46.0" layoutY="8.0" prefHeight="70.0" prefWidth="200.0" text="AcademicInformation">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Session" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="CGPA" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Semester" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Year" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Rool Number" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="59.0" prefWidth="396.0">
+                           <children>
+                              <Label prefHeight="59.0" prefWidth="153.0" text="Registration number" />
+                              <TextField prefHeight="89.0" prefWidth="243.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </SplitPane>
+   </children>
+</AnchorPane>
